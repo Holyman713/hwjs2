@@ -100,7 +100,7 @@ var c = prompt('Введите третье число');
 if (isNaN(a) || isNaN(b) || isNaN(c)){
     alert('Вы ввели не числа!')
 }
-else if (a>b && a >c && b>c){
+else if (a>b && a>c && b>c){
     alert('Среднее число ' + b);
 }else if (a>b && a>c && c>b){
     alert('Среднее число ' + c);
@@ -108,4 +108,8 @@ else if (a>b && a >c && b>c){
     alert('Среднее число ' + a);
 }else if (b>a && b>c && c>a) {
     alert('Среднее число ' + c);
+}else if (c>a && c>b &&b>a ){
+    alert('Среднее число ' + b);
+}else if (c>a && c>b &&a>b ){
+    alert('Среднее число ' + a);
 }
